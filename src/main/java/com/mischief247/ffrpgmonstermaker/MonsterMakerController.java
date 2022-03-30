@@ -14,8 +14,10 @@ import javafx.scene.control.*;
 import static javafx.scene.control.SelectionMode.*;
 
 public class MonsterMakerController {
+    //set up backing Monster Class
     Monster monster = new Monster();
 
+    //set up the bindings for the fxml objects
     @FXML
     Spinner<Integer> levelSpinner;
     @FXML
